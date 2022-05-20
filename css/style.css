@@ -4,7 +4,6 @@
   box-sizing: border-box;
 }
 .box {
-  /* border: 1px solid #000000; */
   text-align: center;
   background-color: #ffffff;
 }
@@ -18,6 +17,8 @@ body {
   grid-row-gap: 10px;
   grid-auto-rows: minmax(150px, auto);
   text-align: center;
+  font-size: 25px;
+  color: #000fff;
 }
 h1 {
   color: #ffffff;
@@ -27,6 +28,7 @@ h1 {
   grid-row-start: 1;
   grid-row-end: 3;
   text-align: center;
+  align-items: center;
 }
 .item-7 {
   grid-column-start: 2;
